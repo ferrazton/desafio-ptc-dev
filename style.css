@@ -12,7 +12,7 @@ body {
 
 .intro {
   text-align: center;
-  transform: translateY(-50%);
+  transform: translateY(-35%);
   font-size: 21px;
 }
 
@@ -61,6 +61,45 @@ body {
 }
 
 .item:hover {
-  transform: translateY(-6px);
-  opacity: 0.9;
+  transform:scale(1.05);
+}
+
+.top3 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  padding: 24px;
+}
+
+.poster {
+  width: 300px;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 2%;
+  margin-bottom: 12px;
+}
+
+.poster:hover, .album:hover {
+  transform: scale(1.05);
+}
+
+.album {
+  width: 375px;
+  height: 375px;
+  object-fit: cover;
+  border-radius: 2%;
+  margin-bottom: 12px;
+}
+
+.album:hover {
+  transform: scale(1.05);
+}
+
+.voltar img {
+  scale: calc(50%);
+}
+
+.voltar img:hover {
+  transform: scale(1.05);
 }
