@@ -103,3 +103,26 @@ body {
 .voltar img:hover {
   transform: scale(1.05);
 }
+
+.extra {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin-top: -3%;
+  font-size: 7px;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.wow_icon {
+  margin-top: -25%;
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  border-radius: 10%;
+}
+
+.wow_icon:hover {
+  transform: scale(1.1);
+}
